@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fanuc-gripper",
+    "title": "Two-finger gripper for a FANUC robot",
+    "category": "Mechanical design",
+    "period": "2026 · Ongoing",
+    "tools": ["SolidWorks", "GD&T", "Design for Assembly"],
+    "summary": "A parallel two-finger end-of-arm gripper, with manufacturing drawings and an assembly review.",
+    "work": ["Designed the gripper and its parametric parts in SolidWorks, including assembly interfaces and motion constraints.", "Prepared manufacturing drawings with GD&T, selected fits, positional tolerances and surface-finish requirements.", "Reviewed the design using Design for Assembly principles and reduced the required assembly steps from nine to six."],
+    "focus": "Assembly interfaces, tolerances and manufacturability",
+    "images": [], "video": "", "files": []
+  },
+  {
+    "id": "material-optimization",
+    "title": "Structural component material optimization",
+    "category": "Material selection",
+    "period": "August 2026 · Ongoing",
+    "tools": ["Ansys Granta", "Ashby charts"],
+    "summary": "A comparison of six candidate materials against a steel baseline to assess stiffness, mass and manufacturing constraints.",
+    "work": ["Compared six candidate materials with a steel baseline using Ansys Granta and Ashby material-selection charts.", "Evaluated specific stiffness, component mass, machinability, corrosion behaviour, thermal resistance and relative cost.", "Shortlisted two aluminium-alloy options that could provide the required stiffness at a lower mass."],
+    "focus": "Stiffness-to-mass performance and material trade-offs",
+    "images": [], "video": "", "files": []
+  },
+  {
+    "id": "obstacle-avoidance",
+    "title": "Sensor-based obstacle avoidance",
+    "category": "Autonomous systems",
+    "period": "March–July 2026",
+    "tools": ["Ultrasonic sensors", "IR sensors", "Decision logic"],
+    "summary": "A mobile platform using proximity sensors for real-time obstacle detection and path correction.",
+    "work": ["Integrated ultrasonic and IR proximity sensors on a mobile platform.", "Developed decision logic for real-time obstacle detection and path correction.", "Tested the platform across three surface types, with a reported avoidance response within 120 ms."],
+    "focus": "Sensor integration and avoidance response",
+    "images": [], "video": "", "files": []
+  },
+  {
+    "id": "robot-swarm",
+    "title": "Collective perception in a robot swarm",
+    "category": "Robotics",
+    "period": "April–June 2026",
+    "tools": ["JavaScript", "Robotics", "Decentralized decision making"],
+    "summary": "A decentralized swarm that identifies the dominant floor colour and works toward a majority consensus.",
+    "work": ["Developed a decentralized robot swarm to identify the dominant floor colour.", "Implemented collective decision making so the swarm could converge toward a strong majority consensus without centralized control."],
+    "focus": "Collective perception and majority consensus",
+    "images": [], "video": "", "files": []
+  },
+  {
+    "id": "twatch-jump-counter",
+    "title": "Fault-tolerant jump counter on T-Watch",
+    "category": "Embedded systems",
+    "period": "January 2026 · Ongoing",
+    "tools": ["T-Watch", "Arduino IDE", "JavaScript"],
+    "summary": "A skipping-rope jump counter developed as part of a fault-tolerant embedded real-time systems project.",
+    "work": ["Developed a fault-tolerant jump counter for skipping rope using T-Watch as part of an embedded real-time systems project."],
+    "focus": "Fault tolerance in an embedded real-time application",
+    "images": [], "video": "", "files": []
+  }
+]

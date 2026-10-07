@@ -48,10 +48,15 @@
     "title": "Fault-tolerant jump counter on T-Watch",
     "category": "Embedded systems",
     "period": "January 2026 · Ongoing",
-    "tools": ["T-Watch", "Arduino IDE", "JavaScript"],
-    "summary": "A skipping-rope jump counter developed as part of a fault-tolerant embedded real-time systems project.",
-    "work": ["Developed a fault-tolerant jump counter for skipping rope using T-Watch as part of an embedded real-time systems project."],
-    "focus": "Fault tolerance in an embedded real-time application",
-    "images": [], "video": "", "files": []
+    "tools": ["T-Watch", "Arduino IDE", "C++", "IMU sensing"],
+    "team": "Shubham Jadhav and Shanal Orin Dsouza",
+    "summary": "A team project to count skipping-rope jumps and track workout duration on a T-Watch, with pause/resume controls and an inactivity timeout.",
+    "work": ["Implemented jump detection using Z-axis IMU acceleration, with take-off and landing thresholds and a minimum air-time check.", "Added a workout timer, a start countdown, pause/resume and reset controls, and vibration feedback.", "Automatically paused the workout after 15 seconds without a detected jump.", "Presented the design using Hanmer’s Minimize Human Intervention and Correcting Audits patterns, with two recorded demonstrations."],
+    "focus": "Jump-event validation, workout state control and automatic inactivity handling",
+    "limitations": "Z-axis sensing is affected by watch tilt and loose wearing. Arm movements can produce false detections. The design uses one IMU, without sensor redundancy or orientation compensation.",
+    "images": [{"src":"projects/twatch-jump-counter/watch-interface.png", "alt":"T-Watch displaying jump count, Z-axis acceleration and workout duration", "caption":"The jump-counter interface on the actual T-Watch."}],
+    "video": "",
+    "videos": [{"src":"projects/twatch-jump-counter/demo-1.mp4", "title":"Demo 1: watch interface and workout controls (1:01)"}, {"src":"projects/twatch-jump-counter/demo-2.mp4", "title":"Demo 2: jump-counting demonstration (0:20)"}],
+    "files": [{"label":"Presentation (PDF)", "url":"projects/twatch-jump-counter/presentation.pdf"}, {"label":"PowerPoint with embedded videos", "url":"projects/twatch-jump-counter/presentation.pptx"}, {"label":"Arduino source (ZIP)", "url":"projects/twatch-jump-counter/arduino-source.zip"}]
   }
 ]
